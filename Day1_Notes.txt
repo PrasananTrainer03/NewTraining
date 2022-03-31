@@ -1,0 +1,526 @@
+SDLC (Software Development Life Cycle) 
+
+       Is a process used by software industry to design, develop and test high quality software. 
+
+It aims to produce a high quality software that meets or exceeds custom expectations, reaches completion within times and cost estimates. 
+
+The phases available in this process are
+
+1) Requirement Analysys
+
+	-> Man power
+
+	-> Infrastructure
+
+	-> Timelinles
+
+
+2) Feasiblity Study
+
+	What are the alternates are available, as it is feasible to take it, and how far we can do justice.
+
+3) Design
+
+	Design provides a blueprint to your work, and day by day what activities to be performed and are we lagging any etc...
+
+4) Implementation
+
+	You need to choose any programming model to implement, and you can start working on that. 
+
+5) Testing/Debugging
+
+	Test the APplication w.r.t. Client Requirements, and if any deviations comes, then please report to developers to fix the issues.
+
+6) Review/Maintenance : 
+
+	Whether your system is cope up in long run or any support to be provided, if so how much time it should be provided. 
+
+There are various SDLC models as 
+
+	1) WaterFall : In this method all phases will go in linear sequential flow, this means that any phase n development process begings only if the previous phase finishes. 
+
+		Drawbacks : 
+		__________
+
+		   1) When a project needs no timelines we have to see
+
+		   2) We cannot add any new requirements at the middle of project
+
+		   3) You cannot go back to previous phase. 
+
+	2) Spiral
+
+		It is a risk drive software development process model, based on the unique risk patterns of given project. 
+
+	    Drawbacks : 
+	    ___________
+
+		1) There is need to comprise on product quality
+
+		2) All the features which are expected will not be part of the end product.
+
+	3) V Model 
+
+		Verification and Validations 
+
+	Validation is process of identifying the product, as what features are committed are implemented successfully. 
+
+	Verification is the process of checking, whethere you are following actual process to achieve the result.
+
+Validation is always on Product, where verification is always checks about process you are follwing. 
+
+Pros and Cons : 
+_______________
+
+   V model is understandable and very easy to use
+
+  Each phase has definite deliverables
+
+  Higher possibility of achivement over the water fall model, due to development of test plans early on during the life cycle. 
+ 
+  Works well for small projects. 
+
+_______________________________________________________________________________________________________
+
+Agile : 
+________
+
+In old models, what are the main drawbacks we found are 
+
+	-> Requirements are not clear
+
+		Requirements needs to be available before we proceed to design
+
+	-> Project takes long time
+
+		Business Demands faster time to market to achieve more advantage
+
+	-> Time wasted on junk 
+	
+	     Many things are done which are not directly linked with software to be delivered. 
+
+
+Agile is a software development methodology, to build a software incremently using 4 principes as
+
+	-> Design
+
+	-> Code
+
+	-> Integrate 
+
+	-> Test
+
+
+Roles : 
+________
+
+1) Scrum Master
+
+	Is a teaml leader and facilitator who helps the team members to follow agile practices so that they can meet thier commitments. 
+
+	-> To enable close co-operation between all roles and functions. 
+
+	-> Remove any blocks 
+
+	-> Makes the team to stay way from any disturbances
+
+	-> To ensure above things, he is going to conduct
+	
+		-> Daily Standup Meetings
+
+			It is most important thing w.r.t Work view for any developer.
+
+			Today morning 9, this is task i am taking, and this task i will finish by eod. 
+
+			and document it in any software specified, next eod, plesae cross check whether
+			you achieved whatever u promised. 
+
+		-> Planned Meetings
+
+		-> Demos
+
+		-> Review
+
+		-> Retrospective Meetings 
+
+2) Product Owner
+
+	Product is a one who drives the product from business perspective. 
+
+		-> To define the requirements and prioritize the values
+
+		-> To determine the releate date and contents
+
+		-> To take an active role in sprint planning and release planning dates
+
+		-> To present the voice of customer
+
+		-> Accept the User Stories that meet the definition of done and defined on Acceptance Criteria.
+
+
+
+Agile allows you to suggest changes in middle of the project. 
+
+Project Divided in sprints, 
+
+Once sprint started, then if any new requirements, those things can be done in next sprint. 
+
+Once sprint started, current sprint cannot be disturbed. 
+
+
+	-> Sprint : In Agile, each iteration can be measures in terms of Sprint, Each sprint contains various requirements that needs to be done in current sprint period. The sprint period to be started with one week, 
+and at the end of Sprint meeting, you need to review on the requirements specified are completed or not. 
+
+If the requirements are completed successfully, then product owner will close the Current sprint and Next sprint requirements will be started. 
+
+No New requirements will be added at the middle of the Sprint. 
+
+	-> User Story
+
+	In Agile, all thre requirements will be defined in the part of User Stories. 
+
+A User Story is a requirement which defines what is required by the user as functionality. 
+
+The User Story contains various parts as 
+
+	-> As a <User Role> i want <Functionality> so that <Business Value>
+
+        -> In Order to <Business Rule> as a <User Role> I want <Functionality> 
+
+User story talks about what is to be done, it defines what a user needs
+
+Task talks about how it is to be done, it defines how a functionality is to be implemented. 
+
+Each story implemented by using tasks, each story contains collection of tasks. 
+
+Tasks can be estimated in hours, typically from 2 to 12 hrs. 
+
+Once user story implementation over, then the story needs to be validated. 
+
+Validation to be done by using Accepting Criteria
+
+	-> Acceptance Criteria
+
+Once team decides the user Story Done, then 
+
+	-> All tasks (Development, Testing) are completed
+
+	-> All Acceptance Tests are running and are passed
+
+	-> No Defect is Open
+
+	-> Product Owner has accepted the story
+
+	-> Deliverable to the end-user 
+
+Acceptance Criteria : 
+_____________________
+
+Criteria defines the functionality, behaviour and performance required by a feature so that it can be accepted by the product owner. It defines what is to be done so that developer knowns when the user story is complete. 
+
+
+Agile Priorities : 
+___________________
+
+Agile priorities follows the principle of 
+
+MoSCoW 
+
+	-> Must Have
+
+	-> Should Have
+
+	-> Could Have
+
+	-> Won't Have
+
+
+Agile Scrum : 
+_____________
+
+
+ ->  Scrum is an agile process that allows us to focus on delivering the highest business value in the shortest time. 
+
+ -> It allows us to rapidly and repeatedy inspect actual working software (Every Two weeks to one month
+
+ -> The business sets the priorities 
+
+ -> Teams self-organize to determine the best way to deliver the high priority features 
+
+ -> Its recommened to see working software frequently 
+and decide to release it as is on continue to enahnce it for another sprint. 
+
+Characterstics : 
+_________________
+
+	-> Self Organized Teams
+
+	-> Product Progress can be measures in sprints 
+
+	-> All the requirements are captured in Product Backlog
+
+	-> No Specific engineering practices prescribed
+
+	-> Uses generative rules to create an agile environment for delivering projects 
+
+Advantages : 
+_____________
+
+	-> Openness 	-> Sharing Ideas
+
+	-> Focus  -> Task Oriented
+
+	-> Commitment  -> Adhere to task completions
+
+	-> Courage  -> Open to discuss about issues and solutions
+
+	-> Respect  -> Please respect individual opinions
+
+	-> Visibility  -> What and how 
+
+
+Product Backlog :
+_________________
+
+	Prepared by the Product Owner, list of customer requirements are prioritized by business value
+
+	The scrum team contributes to the product backlong by estimating the cost of developing features. 
+
+		It should include all the features visible to the customer, as well as the technical 	requirements needed to be build the product.
+
+	The Highest priority items in the product backlog needed to be broken in to small units. 
+
+
+Sprint Backlog : 
+
+	It is an artifact of Spring Planning Meeting, scrum team has selected and commited to deliver a set of top priority features, from the product backlog, the product backlog's features are broken down into Sprint Backlog. 
+
+Tasks are broken into Pieses so that will require the time to complete. The time can be specified w.r.t. Hours, when the sprint backlog completed, the total estimated work compared with original estimate from the product backlog. If tehre is a significant difference, the team negotiates with the product ower to get solution, 
+
+Simple Words
+
+What is Product Backlog
+
+	It is a requirement Document that which contains all the high priority requirements of the current projects. 
+
+What is Sprint Backlog
+
+	Sprint Backlog takes any valid requirement from the product backlog and splits it into Tasks, and each task can be estimated w.r.t. Hours 
+
+Once Sprint backlog finalizes then each task will be divided into sprint cycles. 
+
+Sprint  
+
+Scrum projects make progress in series of Sprints. Sprint is an iteration of work during which an increment of product functionality is implemented. 
+
+Product can be designed, coded and tested during the sprint 
+
+To adhere the proces of Agile, Sprint meeting to be happen for 2 to 4 weeks or atleast once in month .
+
+
+Sprint starts with Sprint Planning, Many Daily Scrum Meetings occur during the sprint (one per day), at the end of sprint we have a sprint review meeting, followed by sprint retrospective meeting. 
+
+During Sprint, the team must be not interrupted with additional requests, Guaranteeing the team won't be interrupted allows it to make real commitments it can be expected to keep. 
+
+Sprint Planning : 
+__________________
+
+     -> Team Selects items from Product Backlog for that they can commit to complete
+
+     -> Once Sprint Backlog Created 
+
+	-> Tasks are identified and estimated w.r.t. Hours 
+
+     So, atlast the high level design document considered as 
+
+   As, for HotelManagement Module, i will take OrderDetails in the current sprint, that which contains
+
+	Code in Middle Tier 8 hrs
+
+	Code in UI 4 hrs
+
+	Write Test Cases 4 hrs
+
+	Code in DAO class 6 hrs
+
+	Performance Tests 4 hrs 
+
+*** No changes during sprint,as sprint takes 1 week time, in that week please don't come up with new requirements ***
+
+Daily Standup Meeting Contains : 
+_________________________________
+
+	 -> What i did yesterday
+
+	-> What i will do today 
+
+	-> Is there anything stopping my work 
+
+These standups to be happen daily for min. 15 mins
+
+after that standup meeting notes to be uploaded in defined tool. Jira or Bugilla etc...
+
+After the meeting you are giving the commitment in front of ur peers. 
+
+Once sprint started, and in that we will have 
+
+1) Sprint Review Meeting
+
+	Team presents what accomplished during the sprint. 
+
+	Typically takes the form of demo of new features of the current working software
+
+	Here, we need to see the demo of new featues. 
+
+Sprint Review Meeting gets followed by Sprint Retrospective meeting 
+
+2) Sprint Retrospective Meeting 
+
+	-> Inspect and Adapt
+
+	-> Team assesses the way they worked together in the current sprint and identifies positive ways of working together.
+
+	-> The team alos identifies the things that could work better and develops strategies for 
+
+	Who Involves in this meeting are : 
+	___________________________________
+
+		-> Scrum Master
+
+		-> Product Owner
+
+		-> Team
+
+		-> Possibliy customers and others 
+
+Here, we need to take care of 
+
+	1) What are things are went well in the current sprint
+
+	2) What could have been improved
+
+	3) What are actions to be taken place for this
+
+
+Burndown Chart :
+__________________
+
+	Shows the cumulative work remaining in a Sprint, day-by-day. 
+
+	Used as a tool to guide the development team to successfull completion of a Sprint on time with working code, that potentially delivered to client. 
+
+Twelve Principles of Agile Manifesto : 
+_______________________________________
+
+	-> Customer Satisfaction
+
+		High Priority to be given to satisfy the requirements of customers through early and continuous 			delivery of valuable software.
+
+	-> Welcome Change
+
+		Changes are inevitable during software development, ever-changing requirements should be welcome, even late in the development phase. Agile process should work to increase customers competitive advantage. 
+
+	-> Deliver a Working Software
+
+		Deliver a working software frequently, ranging from a few weeks to few months. 
+
+	-> Collaboration
+
+		Business People and developers must work together during the entire life of the project. 
+
+	-> Motivation
+
+		Projects should be built around motivated individuals. Provide an environment to support individual team members and trust them so as to make them feel responsible to get the job to be done.
+
+	-> Face to Face Conversion
+
+		Face to Face conversation is most efficient and effective method of conveying information to and within a development team. 
+
+	-> Measure the progress as per the working software
+
+		Working Software is the key and it should be primary measure of progress. 
+
+	-> Maintain Cost Pace
+
+		Agile processes aim towards sustainable development. The business, the developers and users 	should be able to maitain constant pace with project.
+
+	-> Monitoring
+
+		Pay regular attention to technical excellence and good design to enhance agile process. 
+
+	-> Simplicity
+
+		Keep things simple and use simple terms to measure the work that is not completed. 
+
+	-> Self-Organized Teams
+
+		An agile team should be self-organized and shoul not depend heavily on other teams because the 	best architectures, requirements, and designs from self-organized teams. 
+
+	-> Review the Work Regularly
+	
+		Review the work done at regular intervals so that the team can reflect on how to become more 	effective and adjust its behaviour accordingly. 
+
+	
+Session Plan : 
+______________
+
+	-> About GIT
+
+		Git is a central repository, that which allows you to share the working code across multiple users of various places. 
+
+	-> Version Control System
+
+		It is all about managing multiple versions of documents, programs, web sites etc...
+
+	Some well-known version control systems are CVC, Subversion, Mercurial etc...
+
+	In Centralized Version Control Systems, you can make multiple checkouts of your local copy 
+
+		-> You make local modifications
+
+		-> Your changes are not versioned 
+
+	When you are done, you 'check in' back to the server
+
+	-> Your check-in increments the repo's version. 
+
+
+	-> Git WorkFlow
+
+	Here, we have working Directory
+
+		Working Directory contains all modified/unmodified files
+
+	Staging Area
+
+		This area contains all the files, which are ready to be committed. 
+
+		commit saves the snapshot of all stages files.
+
+	Local Repository
+
+	Remote Repository
+
+
+	-> Creating Git Repo
+
+	-> Git commands
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
